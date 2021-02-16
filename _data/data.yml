@@ -106,7 +106,7 @@ projects:
     assignments:
       - title: Quantum Puzzle Generator
         link: "https://github.com/mrdimosthenis/QuantumPuzzleGenerator"
-        tagline: "An educational puzzle game for Android and iOS, written in F#"
+        tagline: "An educational puzzle game for <strong>Android</strong> and iOS, written in F#"
 
       - title: Blindfold Chess Training
         link: "https://github.com/mrdimosthenis/BlindfoldChessTraining"
