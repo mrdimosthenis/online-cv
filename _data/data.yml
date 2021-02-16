@@ -29,6 +29,9 @@ sidebar:
       - item: Chess
         link: https://lichess.org/@/mrdimosthenis
 
+      - item: Tennis
+        link:
+
 education:
     - degree: BSc in Mathematics
       university: University of Ioannina
