@@ -39,9 +39,9 @@ experiences:
       time: 2016 - 2020
       company: Baresquare, Thessaloniki
       details: |
-          - I was dealing with the integration of the software with datasources like Adobe Analytics, Google Analytics, BigQuery and Postgres
-          - I was inspecting, transforming, and modeling data with the goal of feeding them to the software
-          - I was implementing algorithms by writting the Clojure code that performs the automated data analysis
+          - I was in charge of the integration of the software with datasources like <strong>Adobe Analytics</strong>, <strong>Google Analytics</strong>, <strong>BigQuery</strong> and <strong>Postgres</strong>
+          - I used to implement algorithms in <strong>Clojure</strong> that performed the automated data analysis
+          - I was inspecting, transforming, and modeling data to pass them as input to the software
     - role: Chess Coach
       time: 2013 - 2016
       company: Athletic Union of Kozani, Kozani
