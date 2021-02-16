@@ -106,11 +106,11 @@ projects:
     assignments:
       - title: Quantum Puzzle Generator
         link: "https://github.com/mrdimosthenis/QuantumPuzzleGenerator"
-        tagline: "An educational puzzle game for <strong>Android</strong> and iOS, written in F#"
+        tagline: "An educational puzzle game for <strong>Android</strong> and <strong>iOS</strong>, written in <strong>F#</strong>"
 
       - title: Blindfold Chess Training
         link: "https://github.com/mrdimosthenis/BlindfoldChessTraining"
-        tagline: "A chess application for Android and iOS, written in F#"
+        tagline: "A chess application for <strong>Android</strong> and <strong>iOS</strong>, written in <strong>F#</strong>"
 
       - title: GitHub DevTrends
         link: "https://www.baresquare.com/github-devtrends/"
@@ -118,15 +118,15 @@ projects:
 
       - title: Creative Scala
         link: "https://github.com/mrdimosthenis/creative-scala"
-        tagline: "Translation of the 'Creative Scala' book to Greek"
+        tagline: "Translation of the <strong>Creative Scala</strong> book to Greek"
 
       - title: Synapses
         link: "https://github.com/mrdimosthenis/Synapses"
-        tagline: "A lightweight neural network library, written from scratch in Scala, F# and Python"
+        tagline: "A lightweight <strong>neural network</strong> library, written from scratch in <strong>Scala</strong>, <strong>F#</strong> and <strong>Python</strong>"
 
       - title: Emel
         link: "https://github.com/mrdimosthenis/emel"
-        tagline: "A functional machine learning library, written from scratch in Elixir"
+        tagline: "A functional <strong>machine learning</strong> library, written from scratch in <strong>Elixir</strong>"
 
 publications:
     title: Publications
