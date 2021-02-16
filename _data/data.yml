@@ -29,10 +29,6 @@ sidebar:
       - item: Chess
         link: https://lichess.org/@/mrdimosthenis
 
-career-profile:
-    title: Career Profile
-    summary: |
-      I live in Thessaloniki
 education:
     - degree: BSc in Mathematics
       university: University of Ioannina
