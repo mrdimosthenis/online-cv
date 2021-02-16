@@ -24,6 +24,8 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars: #
     goodreads: # Number-Username, e.g. 123456-alandoe
+    google-play: https://play.google.com/store/apps/developer?id=Dimosthenis+Michailidis
+    app-store-ios: https://apps.apple.com/us/developer/dimosthenis-michailidis/id1551795041
 
     languages:
       - idiom: English
