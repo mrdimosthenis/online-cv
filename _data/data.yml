@@ -32,8 +32,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit.
+      I live in Thessaloniki
 education:
     - degree: BSc in Mathematics
       university: University of Ioannina
@@ -44,10 +43,9 @@ experiences:
       time: 2016 - 2020
       company: Baresquare, Thessaloniki
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit.
-          - Bullet point
-          - Bullet point
+          - I was dealing with the integration of the software with datasources like Adobe Analytics, Google Analytics, BigQuery and Postgres
+          - I was inspecting, transforming, and modeling data with the goal of feeding them to the software
+          - I was implementing algorithms by writting the Clojure code that performs the automated data analysis
     - role: Chess Coach
       time: 2013 - 2016
       company: Athletic Union of Kozani, Kozani
