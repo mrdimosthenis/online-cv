@@ -127,6 +127,10 @@ projects:
       - title: Emel
         link: "https://github.com/mrdimosthenis/emel"
         tagline: "A functional <strong>machine learning</strong> library, written from scratch in <strong>Elixir</strong>"
+        
+      - title: BCT - Classic Edition
+        link: "https://play.google.com/store/apps/details?id=com.michailidis.dimos.blindfoldchesstraining"
+        tagline: "A chess application for Android, written in <strong>Java</strong>"
 
 footer: >
     # Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
