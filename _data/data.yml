@@ -24,8 +24,8 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars: #
     goodreads: # Number-Username, e.g. 123456-alandoe
-    
-interests:
+
+    interests:
       - item: Chess
         link: https://lichess.org/@/mrdimosthenis
 
@@ -52,7 +52,7 @@ experiences:
       time: 2013 - 2016
       company: Athletic Union of Kozani, Kozani
       details: |
-        As National Chess Instructor (certified by FIDE), I was teaching chess to childern and adults.
+        As a National Chess Instructor (certified by FIDE), I was teaching chess to childern and adults.
     - role: Chess Coach
       time: 2013 - 2016
       company: Gymnastic Club of Pontokomi, Kozani
@@ -91,4 +91,4 @@ projects:
         tagline: "A chess application for Android, written in <strong>Java</strong>"
 
 footer: >
-    # Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    
