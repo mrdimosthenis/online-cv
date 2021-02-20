@@ -91,5 +91,45 @@ projects:
         link: "https://play.google.com/store/apps/details?id=com.michailidis.dimos.blindfoldchesstraining"
         tagline: "A chess application for Android, written in <strong>Java</strong>"
 
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Functional Programming
+        level: 100%
+
+      - name: Scala
+        level: 90%
+
+      - name: F#
+        level: 90%
+
+      - name: Clojure
+        level: 100%
+
+      - name: Elixir
+        level: 80%
+
+      - name: Python
+        level: 70%
+
+      - name: SQL
+        level: 80%
+        
+      - name: Mobile Development
+        level: 85%
+
+      - name: API Development
+        level: 80%
+
+      - name: Web Development
+        level: 70%
+
+      - name: Analytics
+        level: 80%
+
+      - name: Machine Learning
+        level: 65%
+
 footer: >
     
