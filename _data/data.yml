@@ -96,7 +96,7 @@ skills:
 
     toolset:
       - name: Functional Programming
-        level: 100%
+        level: 95%
 
       - name: Scala
         level: 90%
@@ -105,7 +105,7 @@ skills:
         level: 90%
 
       - name: Clojure
-        level: 100%
+        level: 95%
 
       - name: Elixir
         level: 80%
@@ -114,7 +114,7 @@ skills:
         level: 70%
 
       - name: SQL
-        level: 80%
+        level: 85%
         
       - name: Mobile Development
         level: 85%
