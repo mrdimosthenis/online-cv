@@ -46,7 +46,7 @@ experiences:
       time: 2016 - 2020
       company: Baresquare, Thessaloniki
       details: |
-          - I was in charge of the integration of the software with datasources like <strong>Adobe Analytics</strong>, <strong>Google Analytics</strong> and <strong>BigQuery</strong>
+          - I was in charge of the integration of the software with data sources like <strong>Adobe Analytics</strong>, <strong>Google Analytics</strong> and <strong>BigQuery</strong>
           - I used to implement algorithms in <strong>Clojure</strong> that performed the automated data analysis
           - I was inspecting and transforming data (with complex <strong>SQL</strong> queries) to pass them as input to the software
     - role: Chess Coach
@@ -73,7 +73,7 @@ projects:
 
       - title: DevSource
         link: "https://www.linkedin.com/pulse/github-data-source-dimosthenis-michailidis"
-        tagline: "GitHub as a datasource for <strong>analytics</strong>"
+        tagline: "GitHub as a data source for <strong>analytics</strong>"
 
       - title: Creative Scala
         link: "https://github.com/mrdimosthenis/creative-scala"
