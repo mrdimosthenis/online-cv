@@ -71,9 +71,9 @@ projects:
         link: "https://github.com/mrdimosthenis/BlindfoldChessTraining"
         tagline: "A chess application for <strong>Android</strong> and <strong>iOS</strong>, written in <strong>F#</strong>"
 
-      - title: GitHub DevTrends
-        link: "https://www.baresquare.com/github-devtrends/"
-        tagline: "A datasource that tracks public activities on GitHub and provides reports"
+      - title: DevSource
+        link: "https://www.linkedin.com/pulse/github-data-source-dimosthenis-michailidis"
+        tagline: "GitHub as a datasource for <strong>analytics</strong>"
 
       - title: Creative Scala
         link: "https://github.com/mrdimosthenis/creative-scala"
