@@ -34,7 +34,8 @@ sidebar:
 career-profile:
     title: General Info
     summary: |
-      My main experience lies in building, testing and deploying <strong>data pipelines</strong>. Specifically, I have worked a lot on creating integrations with external APIs, on transforming data with SQL and on writing code for automated analysis.
+      My main experience lies in building, testing and deploying <strong>data pipelines</strong>.
+      Specifically, I have worked a lot on creating integrations with external APIs, on transforming data with SQL and on writing code for automated analysis.
       Because of my BSc in <strong>Mathematics</strong>, I have the ability to fully understand and implement <strong>machine learning</strong> algorithms from scratch.
       I love creating <strong>mobile applications</strong> and libraries with strongly-typed functional languages like <strong>Scala</strong> and <strong>F#</strong>.
       Currently, I am translating my ML libraries in <strong>Gleam</strong>, a new language for the <strong>Erlang</strong> ecosystem. 
@@ -67,22 +68,10 @@ projects:
     title: Projects
     intro: >
     assignments:
-      - title: Quantum Puzzle Generator
-        link: "https://github.com/mrdimosthenis/QuantumPuzzleGenerator"
-        tagline: "An educational puzzle game for <strong>Android</strong> and <strong>iOS</strong>, written in <strong>F#</strong>"
-
-      - title: Blindfold Chess Training
-        link: "https://github.com/mrdimosthenis/BlindfoldChessTraining"
-        tagline: "A chess application for <strong>Android</strong> and <strong>iOS</strong>, written in <strong>F#</strong>"
-
       - title: DevSource
         link: "https://www.linkedin.com/pulse/github-data-source-dimosthenis-michailidis"
         tagline: "GitHub as a data source for <strong>analytics</strong>"
-
-      - title: Creative Scala
-        link: "https://github.com/mrdimosthenis/creative-scala"
-        tagline: "Translation of the <strong>Creative Scala</strong> book to Greek"
-
+        
       - title: Synapses
         link: "https://github.com/mrdimosthenis/Synapses"
         tagline: "A lightweight <strong>neural network</strong> library, written from scratch in <strong>Scala</strong>, <strong>F#</strong> and <strong>Python</strong>"
@@ -91,9 +80,21 @@ projects:
         link: "https://github.com/mrdimosthenis/emel"
         tagline: "A functional <strong>machine learning</strong> library, written from scratch in <strong>Elixir</strong>"
         
+      - title: Blindfold Chess Training
+        link: "https://github.com/mrdimosthenis/BlindfoldChessTraining"
+        tagline: "A chess application for <strong>Android</strong> and <strong>iOS</strong>, written in <strong>F#</strong>"
+        
+      - title: Quantum Puzzle Generator
+        link: "https://github.com/mrdimosthenis/QuantumPuzzleGenerator"
+        tagline: "An educational puzzle game for <strong>Android</strong> and <strong>iOS</strong>, written in <strong>F#</strong>"
+        
       - title: BCT - Classic Edition
         link: "https://play.google.com/store/apps/details?id=com.michailidis.dimos.blindfoldchesstraining"
         tagline: "A chess application for Android, written in <strong>Java</strong>"
+
+      - title: Creative Scala
+        link: "https://github.com/mrdimosthenis/creative-scala"
+        tagline: "Translation of the <strong>Creative Scala</strong> book to Greek"
 
 skills:
     title: Skills &amp; Proficiency
