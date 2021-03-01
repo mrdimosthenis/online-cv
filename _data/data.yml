@@ -34,6 +34,10 @@ sidebar:
 career-profile:
     title: General Info
     summary: |
+      My main experience lies in building, testing and deploying <strong>data pipelines</strong>. Specifically, I have worked a lot on creating integrations with external APIs, on transforming data with SQL and on writing code for automated analysis.
+      Because of my BSc in <strong>Mathematics</strong>, I have the ability to fully understand and implement <strong>machine learning</strong> algorithms from scratch.
+      I love creating <strong>mobile applications</strong> and libraries with strongly-typed functional languages like <strong>Scala</strong> and <strong>F#</strong>.
+      Currently, I am translating my ML libraries in <strong>Gleam</strong>, a new language for the <strong>Erlang</strong> ecosystem. 
       - Date of Birth: 28 Nov, 1986
       - Location: Thessaloniki, Greece
 education:
