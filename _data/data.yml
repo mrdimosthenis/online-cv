@@ -56,13 +56,13 @@ career-profile:
     summary: |
       I am an experienced software developer dedicated to functional programming.
       My main expertise lies in **Clojure**, which I've used extensively
-      for back-end development. In this role, I've designed APIs,
+      for back-end development. In this role, I've designed APIs and
       built, tested, and deployed data pipelines for automated analysis.
 
       My interest in functional programming extends to personal projects.
       I've developed cross-platform mobile applications in **F#** and created
       libraries in **Scala**, **Elixir**, and **Elm**. These projects reflect my
-      personal exploration of these languages.
+      exploration of these languages.
 
       Professionally, I also have experience with **Terraform** for infrastructure
       and **Kubernetes** for container management. While my primary focus is not
