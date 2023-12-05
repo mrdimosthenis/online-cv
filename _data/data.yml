@@ -54,12 +54,12 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am an experienced software developer dedicated to **functional programming**.
+      I am an experienced software developer dedicated to functional programming.
       My main expertise lies in **Clojure**, which I've used extensively
-      for **back-end development**. In this role, I've designed APIs,
-      built, tested, and deployed **data pipelines** for automated analysis.
+      for back-end development. In this role, I've designed APIs,
+      built, tested, and deployed data pipelines for automated analysis.
 
-      My interest in **functional programming** extends to personal projects.
+      My interest in functional programming extends to personal projects.
       I've developed cross-platform mobile applications in **F#** and created
       libraries in **Scala**, **Elixir**, and **Elm**. These projects reflect my
       personal exploration of these languages.
