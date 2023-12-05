@@ -42,10 +42,10 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Cycling
+        - item: Chess
           link:
 
-        - item: Chess
+        - item: Cycling
           link:
 
         - item: Tennis
@@ -54,16 +54,20 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      As someone with a keen interest in functional programming, I have become
-      proficient in several languages, like Clojure, F#, Scala, and Elixir. My main
-      professional focus is on back-end development, such as API design and
-      implementation. I also have experience in building, testing, and deploying data
-      pipelines for automated analysis.
-      
-      My academic background in Mathematics was beneficial in understanding and
-      implementing machine learning algorithms from scratch. I'm also familiar with
-      tools like Terraform and Kubernetes, and I use them to complement my software
-      development tasks.
+      I am an experienced software developer dedicated to **functional programming**.
+      My main expertise lies in **Clojure**, which I've used extensively
+      for **back-end development**. In this role, I've designed APIs,
+      built, tested, and deployed **data pipelines** for automated analysis.
+
+      My interest in **functional programming** extends to personal projects.
+      I've developed cross-platform mobile applications in **F#** and created
+      libraries in **Scala**, **Elixir**, and **Elm**. These projects reflect my
+      personal exploration of these languages.
+
+      Professionally, I also have experience with **Terraform** for infrastructure
+      and **Kubernetes** for container management. While my primary focus is not
+      DevOps, these skills are a significant part of my technical toolkit.
+
 education:
     title: Education
     info:
@@ -83,19 +87,16 @@ experiences:
         time: 2021 - Present
         company:  Flexiana
         details: |
-          I am developing Clojure-based back-end systems for a fintech client.
-          My expertise in Clojure is applied in building and maintaining APIs for
-          multiple services, ensuring functionality and reliability. I also employ tools
-          like Terraform and Kubernetes for effective deployment and management,
-          aligning with the dynamic needs of the fintech industry.
+          I develop Clojure-based back-end systems for a fintech client,
+          focusing on building and maintaining high-scale APIs. I also utilize
+          Terraform and Kubernetes for streamlined deployment and management.
       - role: Software Developer
         time: 2016 - 2020
         company: Baresquare
         details: |
-          I specialized in developing Clojure algorithms for automated data analysis.
-          My responsibilities included not only algorithm implementation but also
-          integrating our software with various data sources such as Adobe Analytics,
-          Google Analytics, and BigQuery.
+          I specialized in developing algorithms for automated data analysis in
+          Clojure, and integrating software with various data sources such as
+          Adobe Analytics, Google Analytics, and BigQuery.
       - role: Chess Coach
         time: 2013 - 2016
         company: Gymnastic Club of Pontokomi
@@ -116,11 +117,9 @@ certifications:
       end: 2016
       organization: FIDE
       details: |
-        I am a certified National Chess Instructor under the International Chess
-        Federation (FIDE). This certification is a testament to my deep understanding
-        of chess strategies and my ability to effectively teach and mentor aspiring
-        chess players. It reflects my commitment to the intellectual rigor of chess
-        and my passion for sharing this knowledge with others.
+        As a certified National Chess Instructor under FIDE, I've developed strategic
+        thinking and problem-solving skills, which are invaluable in my software
+        development career.
 
 projects:
     title: Projects
@@ -168,35 +167,32 @@ skills:
       - name: Clojure
         level: 95%
 
-      - name: F#
-        level: 94%
-
-      - name: Scala
-        level: 87%
-
       - name: Elixir
         level: 80%
 
       - name: Elm
         level: 85%
 
+      - name: F#
+        level: 94%
+
       - name: Haskell
         level: 70%
-
-      - name: Terraform
-        level: 65%
 
       - name: Kubernetes
         level: 60%
 
-      - name: SQL
-        level: 90%
+      - name: Machine Learning
+        level: 67%
 
       - name: Mobile Development
         level: 75%
 
-      - name: Machine Learning
-        level: 67%
+      - name: SQL
+        level: 90%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: Scala
+        level: 87%
+
+      - name: Terraform
+        level: 65%
