@@ -151,11 +151,11 @@ projects:
 publications:
     title: Articles
     papers:
-      - title: Deterministic Randomness in Elixir
-        link: https://flexiana.com/2023/11/deterministic-randomness-in-elixir
-
       - title: Error Handling in F#
         link: https://flexiana.com/2023/10/error-handling-in-f
+
+      - title: Deterministic Randomness in Elixir
+        link: https://flexiana.com/2023/11/deterministic-randomness-in-elixir
 
       - title: ML libraries for functional and mainstream languages
         link: https://flexiana.com/2022/07/ml-libraries-for-functional-and-mainstream-languages
