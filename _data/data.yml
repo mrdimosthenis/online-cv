@@ -76,9 +76,7 @@ education:
         time: 2004 - 2012
         details: |
           At the University of Ioannina, I earned my Bachelor's degree in Mathematics,
-          with a focus on computer science courses. This combination of
-          mathematics and computer science provided a strong foundation for my
-          subsequent career in software development.
+          with a focus on computer science courses.
 
 experiences:
     title: Experiences
@@ -117,10 +115,9 @@ certifications:
       end: 2016
       organization: FIDE
       details: |
-        As a certified National Chess Instructor under FIDE, I've developed strategic
-        thinking and problem-solving skills, which are invaluable in my software
-        development career.
-
+        Certified National Chess Instructor by the International Chess
+        Federation (FIDE), entrusted with elevating competitive chess
+        players to national level standards.
 projects:
     title: Projects
     assignments:
