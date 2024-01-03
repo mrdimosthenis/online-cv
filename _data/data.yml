@@ -125,13 +125,13 @@ projects:
         link: https://github.com/mrdimosthenis/BlindfoldChessTraining
         tagline: "A chess application for Android and iOS, written in F#"
 
+      - title: Quantum Puzzle Generator
+        link: https://github.com/mrdimosthenis/QuantumPuzzleGenerator
+        tagline: "An educational puzzle game for Android and iOS, written in F#"
+
       - title: Emel
         link: https://github.com/mrdimosthenis/emel
         tagline: "A functional machine-learning library, written from scratch for the Erlang ecosystem"
-
-      - title: Quantum Puzzle Generator
-        link: https://github.com/mrdimosthenis/QuantumPuzzleGenerator
-        tagline: "An educational puzzle game for Android and iOS"
 
       - title: Synapses
         link: https://github.com/mrdimosthenis/Synapses
