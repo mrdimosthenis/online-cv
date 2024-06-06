@@ -48,25 +48,19 @@ sidebar:
         - item: Cycling
           link:
 
-        - item: Tennis
-          link:
-
 career-profile:
     title: Career Profile
     summary: |
       I am an experienced software developer dedicated to functional programming.
-      My main expertise lies in **Clojure**, which I've used extensively
-      for back-end development. In this role, I've designed APIs and
-      built, tested, and deployed data pipelines for automated analysis.
+      My expertise spans multiple functional languages, including **Clojure**, **F#**, **Scala**, **Elixir**, and **Elm**.
+      In my professional roles, I have designed APIs and built, tested, and deployed data pipelines for automated analysis.
 
-      My interest in functional programming extends to personal projects.
-      I've developed cross-platform mobile applications in **F#** and created
-      libraries in **Scala**, **Elixir**, and **Elm**. These projects reflect my
-      exploration of these languages.
+      My commitment to functional programming extends beyond my professional work into personal projects.
+      I have developed cross-platform mobile applications in **F#** and created various libraries in **Scala**, **Elixir**, and **Elm**.
+      These projects reflect my deep interest and exploration of the functional programming paradigm.
 
-      Professionally, I also have experience with **Terraform** for infrastructure
-      and **Kubernetes** for container management. While my primary focus is not
-      DevOps, these skills are a significant part of my technical toolkit.
+      Professionally, I also have experience with **Terraform** for infrastructure management and **Kubernetes** for container orchestration.
+      While my primary focus is not on DevOps, these skills are an integral part of my technical toolkit.
 
 education:
     title: Education
@@ -82,14 +76,21 @@ experiences:
     title: Experiences
     info:
       - role: Software Developer
-        time: 2021 - Present
+        time: 2024 - Present
+        company:  Hack and Craft
+        details: |
+          I am implementing simulation algorithms and generating detailed charts in F#.
+          My work involves analyzing large and complex data sets with Spark SQL to
+          derive meaningful insights and support various business objectives.
+      - role: Software Developer
+        time: 2021 - 2024
         company:  Flexiana
         details: |
-          I develop Clojure-based back-end systems for a fintech client,
-          focusing on building and maintaining high-scale APIs. I also utilize
+          I developed Clojure-based back-end systems for a fintech client,
+          focusing on building and maintaining high-scale APIs. I also utilized
           Terraform and Kubernetes for streamlined deployment and management.
       - role: Software Developer
-        time: 2016 - 2020
+        time: 2016 - 2021
         company: Baresquare
         details: |
           I specialized in developing algorithms for automated data analysis in
