@@ -127,7 +127,7 @@ projects:
 
       - title: Quantum Puzzle Generator
         link: https://github.com/mrdimosthenis/QuantumPuzzleGenerator
-        tagline: "An educational puzzle game for Android and iOS, written in F#"
+        tagline: "A puzzle game for Android and iOS, written in F#"
 
       - title: Emel
         link: https://github.com/mrdimosthenis/emel
@@ -155,7 +155,7 @@ projects:
 
       - title: Sudoku Engine
         link: https://github.com/mrdimosthenis/sudoku-engine
-        tagline: "https://github.com/mrdimosthenis/sudoku-engine"
+        tagline: "A 60-line sudoku engine, written in Haskell"
 
 publications:
     title: Articles
