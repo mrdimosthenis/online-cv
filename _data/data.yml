@@ -123,39 +123,39 @@ projects:
     assignments:
       - title: Blindfold Chess Training
         link: https://github.com/mrdimosthenis/BlindfoldChessTraining
-        tagline: A chess application for Android and iOS, written in **F#**
+        tagline: "A chess application for Android and iOS, written in F#"
 
       - title: Quantum Puzzle Generator
         link: https://github.com/mrdimosthenis/QuantumPuzzleGenerator
-        tagline: A puzzle game for Android and iOS, written in **F#**
+        tagline: "A puzzle game for Android and iOS, written in F#"
 
       - title: Emel
         link: https://github.com/mrdimosthenis/emel
-        tagline: A machine-learning library, written from scratch for the **Erlang** ecosystem
+        tagline: "A machine-learning library, written from scratch for the Erlang ecosystem"
 
       - title: Synapses
         link: https://mrdimosthenis.github.io/Synapses/
-        tagline: Neural network libraries for functional and mainstream languages
-
-      - title: Turtle Graphics
-        link: https://github.com/mrdimosthenis/turtle-graphics
-        tagline: An **Elm** library that draws vector graphics
+        tagline: "Neural network libraries for functional and mainstream languages"
 
       - title: Minigen
         link: https://github.com/mrdimosthenis/minigen
-        tagline: Pure random data generation library, written in **Gleam**
+        tagline: "Pure random data generation library, written in Gleam"
+
+      - title: Turtle Graphics
+        link: https://github.com/mrdimosthenis/turtle-graphics
+        tagline: "An Elm library that draws vector graphics"
 
       - title: Glicko 2
         link: https://github.com/mrdimosthenis/glicko2
-        tagline: An implementation of the Glicko 2 rating system for Scala and **Scala.js**
-
-      - title: Sudoku Engine
-        link: https://github.com/mrdimosthenis/sudoku-engine
-        tagline: A sudoku engine, written in **Haskell**
+        tagline: "An implementation of the Glicko-2 rating system for Scala and Scala.js"
 
       - title: Creative Scala
         link: https://github.com/mrdimosthenis/creative-scala
-        tagline: Translation of the book 'Creative Scala' to Greek
+        tagline: "Translation of the book 'Creative Scala' to Greek"
+
+      - title: Sudoku Engine
+        link: https://github.com/mrdimosthenis/sudoku-engine
+        tagline: "A sudoku engine, written in Haskell"
 
 publications:
     title: Articles
