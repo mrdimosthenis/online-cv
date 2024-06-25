@@ -143,7 +143,7 @@ projects:
 
       - title: Turtle Graphics
         link: https://github.com/mrdimosthenis/turtle-graphics
-        tagline: "An Elm library that draw vector graphics"
+        tagline: "An Elm library that draws vector graphics"
 
       - title: Glicko 2
         link: https://github.com/mrdimosthenis/glicko2
