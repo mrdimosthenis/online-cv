@@ -53,7 +53,7 @@ career-profile:
     summary: |
       I am an experienced software developer dedicated to functional programming.
       My expertise spans multiple functional languages, including **Clojure**, **F#**, **Scala**, **Elixir**, and **Elm**.
-      In my professional roles, I have designed APIs and built, tested, and deployed data pipelines for automated analysis.
+      In my professional roles, I have built, tested, and deployed APIs and data pipelines.
 
       My commitment to functional programming extends beyond my professional work into personal projects.
       I have developed cross-platform mobile applications in **F#** and created various libraries in **Scala**, **Elixir**, and **Elm**.
@@ -76,25 +76,24 @@ experiences:
     title: Experiences
     info:
       - role: Software Developer
-        time: 2024 - Present
+        time: 2024
         company:  Hack and Craft
         details: |
-          I am implementing simulation algorithms and generating detailed charts in F#.
-          My work involves analyzing large and complex data sets with Spark SQL to
-          derive meaningful insights and support various business objectives.
+          Implementation of simulation algorithms and generation of detailed charts in **F#**.
+          Analysis of large and complex data sets with **Spark SQL** to derive meaningful insights.
       - role: Software Developer
         time: 2021 - 2024
         company:  Flexiana
         details: |
-          I developed Clojure-based back-end systems for a fintech client,
+          I developed **Clojure**-based back-end systems for a fintech client,
           focusing on building and maintaining high-scale APIs. I also utilized
-          Terraform and Kubernetes for streamlined deployment and management.
+          **Terraform** and **Kubernetes** for streamlined deployment and management.
       - role: Software Developer
         time: 2016 - 2021
         company: Baresquare
         details: |
           I specialized in developing algorithms for automated data analysis in
-          Clojure, and integrating software with various data sources such as
+          **Clojure**, and integrating software with various data sources such as
           Adobe Analytics, Google Analytics, and BigQuery.
       - role: Chess Coach
         time: 2013 - 2016
@@ -135,16 +134,28 @@ projects:
         tagline: "A functional machine-learning library, written from scratch for the Erlang ecosystem"
 
       - title: Synapses
-        link: https://github.com/mrdimosthenis/Synapses
+        link: https://mrdimosthenis.github.io/Synapses/
         tagline: "A group of neural network libraries for functional and mainstream languages"
+
+      - title: Minigen
+        link: https://github.com/mrdimosthenis/minigen
+        tagline: "Pure random data generation library for the Erlang ecosystem"
 
       - title: Turtle Graphics
         link: https://github.com/mrdimosthenis/turtle-graphics
         tagline: "An Elm library that commands a relative cursor to draw vector graphics"
 
-      - title: Minigen
-        link: https://github.com/mrdimosthenis/minigen
-        tagline: "Pure random data generation library for the Erlang ecosystem"
+      - title: Glicko 2
+        link: https://github.com/mrdimosthenis/glicko2
+        tagline: "An implementation of the Glicko-2 rating system for Scala and Scala.js"
+
+      - title: Creative Scala
+        link: https://github.com/mrdimosthenis/creative-scala
+        tagline: "Translation of the book 'Creative Scala' to Greek"
+
+      - title: Sudoku Engine
+        link: https://github.com/mrdimosthenis/sudoku-engine
+        tagline: "https://github.com/mrdimosthenis/sudoku-engine"
 
 publications:
     title: Articles
@@ -155,8 +166,8 @@ publications:
       - title: Deterministic Randomness in Elixir
         link: https://flexiana.com/2023/11/deterministic-randomness-in-elixir
 
-      - title: ML libraries for functional and mainstream languages
-        link: https://flexiana.com/2022/07/ml-libraries-for-functional-and-mainstream-languages
+      - title: Primitive Type Differentiation in F#
+        link: https://dev.to/mrdimosthenis/primitive-type-differentiation-in-f-4fl4
 
 skills:
     title: Skills &amp; Proficiency
@@ -175,7 +186,7 @@ skills:
         level: 94%
 
       - name: Haskell
-        level: 70%
+        level: 60%
 
       - name: Kubernetes
         level: 60%
