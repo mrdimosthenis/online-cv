@@ -177,31 +177,16 @@ skills:
         level: 95%
 
       - name: Elixir
-        level: 80%
+        level: 85%
 
       - name: Elm
-        level: 85%
+        level: 80%
 
       - name: F#
         level: 94%
 
       - name: Haskell
-        level: 60%
-
-      - name: Kubernetes
-        level: 60%
-
-      - name: Machine Learning
-        level: 67%
-
-      - name: Mobile Development
-        level: 75%
-
-      - name: SQL
-        level: 90%
+        level: 65%
 
       - name: Scala
         level: 87%
-
-      - name: Terraform
-        level: 65%
