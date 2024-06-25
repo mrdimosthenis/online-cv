@@ -131,11 +131,11 @@ projects:
 
       - title: Emel
         link: https://github.com/mrdimosthenis/emel
-        tagline: "A functional machine-learning library, written from scratch for the Erlang ecosystem"
+        tagline: "A machine-learning library, written from scratch for the Erlang ecosystem"
 
       - title: Synapses
         link: https://mrdimosthenis.github.io/Synapses/
-        tagline: "A group of neural network libraries for functional and mainstream languages"
+        tagline: "Neural network libraries for functional and mainstream languages"
 
       - title: Minigen
         link: https://github.com/mrdimosthenis/minigen
@@ -143,7 +143,7 @@ projects:
 
       - title: Turtle Graphics
         link: https://github.com/mrdimosthenis/turtle-graphics
-        tagline: "An Elm library that commands a relative cursor to draw vector graphics"
+        tagline: "An Elm library that draw vector graphics"
 
       - title: Glicko 2
         link: https://github.com/mrdimosthenis/glicko2
@@ -155,7 +155,7 @@ projects:
 
       - title: Sudoku Engine
         link: https://github.com/mrdimosthenis/sudoku-engine
-        tagline: "A sudoku engine, written in Haskellk"
+        tagline: "A sudoku engine, written in Haskell"
 
 publications:
     title: Articles
