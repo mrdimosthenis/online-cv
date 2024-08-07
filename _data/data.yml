@@ -15,7 +15,7 @@ sidebar:
     # Sidebar links
     email: dimos86m@gmail.com
     phone: +30 6948260942
-    timezone: Europe/Athens
+    timezone: Europe/Greece/Thessaloniki
     citizenship:
     website: mrdimosthenis.github.io/online-cv/ #do not add http://
     linkedin: mrdimosthenis
@@ -51,16 +51,14 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am an experienced software developer dedicated to functional programming.
-      My expertise spans across multiple functional languages, including **Clojure**, **F#**, **Scala**, **Elixir**, and **Elm**.
-      In my professional roles, I have built, tested, and deployed APIs and data pipelines.
-
-      My commitment to functional programming extends beyond my professional work into personal projects.
-      I have developed cross-platform mobile applications in **F#** and created various libraries in **Scala**, **Elixir**, and **Elm**.
-      These projects reflect my deep interest and exploration of the functional programming paradigm.
-
-      Professionally, I also have experience with **Terraform** for infrastructure management and **Kubernetes** for container orchestration.
-      While my primary focus is not on DevOps, these skills are an integral part of my technical toolkit.
+      I work as a software developer and data engineer, and I really enjoy functional programming. In my job, I create
+      web APIs and data pipelines using different programming languages like Clojure, Scala, Python, and F#.
+      
+      I also enjoy coding in my free time and have created mobile apps and libraries that are available on my GitHub
+      profile.
+      
+      In addition to my development skills, I have experience with Terraform and Kubernetes on AWS and GCP. Though not
+      my main focus, these skills are important for my work.
 
 education:
     title: Education
@@ -69,43 +67,41 @@ education:
         university: University of Ioannina
         time: 2004 - 2012
         details: |
-          At the University of Ioannina, I earned my Bachelor's degree in **Mathematics**,
-          with a focus on **Computer Science** courses.
+          I studied Mathematics at the University of Ioannina and also took computer science courses.
 
 experiences:
     title: Experiences
     info:
-      - role: Software Developer
+      - role: Data Scientist
         time: 2024
         company:  Hack and Craft
         details: |
-          Implementation of simulation algorithms and generation of detailed charts in **F#**.
-          Analysis of large and complex data sets with **Spark SQL** to derive meaningful insights.
-      - role: Software Developer
+          I used F# to create simulation algorithms and visualizations. I also analyzed large and complex datasets using
+          Spark SQL on Databricks.
+      - role: Backend Developer
         time: 2021 - 2024
         company:  Flexiana
         details: |
-          I developed **Clojure**-based back-end systems for a fintech client,
-          focusing on building and maintaining high-scale APIs. I also utilized
-          **Terraform** and **Kubernetes** for streamlined deployment and management.
-      - role: Software Developer
+          I built and managed high-scale APIs for a fintech client using Clojure and Postgres for the backend. I used
+          Terraform and Kubernetes to deploy and manage the system on AWS.
+      - role: Data Engineer
         time: 2016 - 2021
         company: Baresquare
         details: |
-          I specialized in developing algorithms for automated data analysis in
-          **Clojure**, and integrating software with various data sources such as
-          Adobe Analytics, Google Analytics, and BigQuery.
+          I focused on creating algorithms for automatic data analysis using Clojure and Postgres. I also connected
+          software with different data sources like Adobe Analytics, Google Analytics, and BigQuery. Additionally, I
+          designed ETL processes and wrote advanced SQL queries for analyzing large datasets. Moreover, I handled
+          infrastructure management on AWS and GCP using Terraform.
       - role: Chess Coach
         time: 2013 - 2016
         company: Gymnastic Club of Pontokomi
         details: |
-          As the team captain, I used to play in the local championships and I trained
-          the other players for their own matches.
+          As the team captain, I played in local championships and trained the other players for their matches.
       - role: Chess Coach
         time: 2013 - 2016
         company: Athletic Union of Kozani
         details: |
-          I was teaching chess to children and adults.
+          I taught chess to people of all ages.
 
 certifications:
   title: Certifications
@@ -115,9 +111,8 @@ certifications:
       end: 2016
       organization: FIDE
       details: |
-        Certified National Chess Instructor by the International Chess
-        Federation (FIDE), entrusted with elevating competitive chess
-        players to national level standards.
+        I am a FIDE-certified National Chess Instructor, responsible for improving chess players' skills to reach
+        national level standards.
 projects:
     title: Projects
     assignments:
@@ -149,44 +144,62 @@ projects:
         link: https://github.com/mrdimosthenis/glicko2
         tagline: "An implementation of the Glicko-2 rating system for Scala and Scala.js"
 
-      - title: Creative Scala
-        link: https://github.com/mrdimosthenis/creative-scala
-        tagline: "Translation of the book 'Creative Scala' to Greek"
-
       - title: Sudoku Engine
         link: https://github.com/mrdimosthenis/sudoku-engine
         tagline: "A sudoku engine, written in Haskell"
 
+      - title: Creative Scala
+        link: https://github.com/mrdimosthenis/creative-scala
+        tagline: "Translation of the book 'Creative Scala' to Greek"
+
 publications:
     title: Articles
     papers:
-      - title: Error Handling in F#
+      - title: Error Handling in F#.
         link: https://flexiana.com/2023/10/error-handling-in-f
 
-      - title: Deterministic Randomness in Elixir
+      - title: Deterministic Randomness in Elixir.
         link: https://flexiana.com/2023/11/deterministic-randomness-in-elixir
 
-      - title: Primitive Type Differentiation in F#
+      - title: Primitive Type Differentiation in F#.
         link: https://dev.to/mrdimosthenis/primitive-type-differentiation-in-f-4fl4
+
+      - title: Is tail call optimization truly necessary?
+        link: https://dev.to/mrdimosthenis/is-tail-call-optimization-truly-necessary-ojo
+
+      - title: Yet another attempt to get better at chess.
+        link: https://dev.to/mrdimosthenis/yet-another-attempt-to-get-better-at-chess-5fjm
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Clojure
+      - name: Backend Development
         level: 95%
 
-      - name: Elixir
-        level: 85%
+      - name: Cloud Computing
+        level: 75%
 
-      - name: Elm
-        level: 80%
+      - name: Data Engineering
+        level: 95%
 
-      - name: F#
-        level: 94%
+      - name: Data Science
+        level: 75%
 
-      - name: Haskell
-        level: 65%
+      - name: Database Management
+        level: 95%
 
-      - name: Scala
-        level: 87%
+      - name: DevOps
+        level: 75%
+
+      - name: Functional Programming
+        level: 95%
+
+      - name: Machine Learning
+        level: 75%
+
+      - name: Mobile Development
+        level: 75%
+
+      - name: Quantum Computing
+        level: 55%
