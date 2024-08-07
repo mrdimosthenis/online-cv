@@ -178,28 +178,28 @@ skills:
         level: 95%
 
       - name: Cloud Computing
-        level: 75%
+        level: 76%
 
       - name: Data Engineering
-        level: 95%
+        level: 96%
 
       - name: Data Science
         level: 75%
 
       - name: Database Management
-        level: 95%
+        level: 94%
 
       - name: DevOps
-        level: 75%
+        level: 74%
 
       - name: Functional Programming
-        level: 95%
+        level: 97%
 
       - name: Machine Learning
-        level: 75%
+        level: 73%
 
       - name: Mobile Development
-        level: 75%
+        level: 77%
 
       - name: Quantum Computing
         level: 55%
