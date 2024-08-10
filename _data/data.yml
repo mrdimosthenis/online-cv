@@ -51,14 +51,14 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I work as a software developer and data engineer, and I really enjoy functional programming. In my job, I create
-      web APIs and data pipelines using different programming languages like Clojure, Scala, Python, and F#.
-      
-      I also enjoy coding in my free time, and I have created mobile apps and libraries that are available on my GitHub
-      profile.
-      
-      In addition to my development skills, I have experience with Terraform and Kubernetes on AWS and GCP. Though not
-      my main focus, these skills are important for my work.
+      I am a software developer and data engineer with a passion for functional programming and a strong focus on
+      backend development, cloud computing, and data engineering. My expertise includes creating web APIs and data
+      pipelines using languages such as Clojure, Scala, Python, and F#. I have integrated software with various data
+      sources, designed ETL processes, and developed advanced SQL queries for large-scale data analysis.
+
+      I have substantial experience managing infrastructure on AWS and GCP using Terraform, and I have set up automated
+      testing and CI/CD pipelines. My work also extends to building mobile apps and libraries, which are available on my
+      GitHub profile.
 
 education:
     title: Education
