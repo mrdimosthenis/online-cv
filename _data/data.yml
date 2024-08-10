@@ -83,8 +83,10 @@ experiences:
         time: 2021 - 2024
         company:  Flexiana
         details: |
-          I built and managed high-scale APIs for a fintech client using Clojure and Postgres for the backend. I used
-          Terraform and Kubernetes to deploy and manage the system on AWS.
+          I worked for a fintech client whose system was a microservices architecture deployed on AWS, utilizing
+          Kubernetes. The services were written in Clojure, communicating through a pub/sub messaging system. Postgres
+          was the primary database, and Redis was used for caching. Terraform managed the infrastructure, while CI/CD
+          pipelines handled the deployment.
       - role: Data Engineer
         time: 2016 - 2021
         company: Baresquare
