@@ -124,8 +124,8 @@ projects:
         link: https://github.com/mrdimosthenis/emel
         tagline: A **machine learning** library for the **Erlang** ecosystem,
                  initially written in **Elixir** and later reimplemented in **Gleam**.
-                 It provides a functional interface for several algorithms
-                 (e.g., KNN, Linear Regression, Neural Networks) for developers working
+                 It provides a functional interface of several algorithms
+                 (e.g. KNN, Linear Regression, Neural Networks) for developers working
                  within the BEAM environment.
         
       - title: Synapses
