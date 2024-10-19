@@ -125,7 +125,7 @@ projects:
         tagline: "A machine-learning library, written from scratch for the Erlang ecosystem"
 
       - title: Synapses
-        link: https://mrdimosthenis.github.io/Synapses/
+        link: https://github.com/mrdimosthenis/Synapses
         tagline: "Neural network libraries for functional and mainstream languages"
         
       - title: Blindfold Chess Training
