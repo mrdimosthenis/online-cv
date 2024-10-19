@@ -131,9 +131,10 @@ projects:
       - title: Synapses
         link: https://github.com/mrdimosthenis/Synapses
         tagline: A collection of **neural-network** libraries available in various programming
-                 languages like **Scala**, **F#**, and **Python**. It provides customization
-                 options, visualizations, data preprocessing, and seamless compatibility for
-                 transferring networks between different platforms.
+                 languages like **Clojure**, **C#,** **Elixir**, **F#,** **Gleam**, **Java**,
+                 **JavaScript**, **Python**, and **Scala**. It provides customization
+                 options, visualizations, data preprocessing, and compatibility for transferring
+                 networks between different platforms.
         
       - title: Blindfold Chess Training
         link: https://github.com/mrdimosthenis/BlindfoldChessTraining
@@ -146,8 +147,8 @@ projects:
       - title: Quantum Puzzle Generator
         link: https://github.com/mrdimosthenis/QuantumPuzzleGenerator
         tagline: A **mobile app** created with **F#** and Xamarin.Forms. The project implements
-                 **quantum computing** logic and mathematics, including matrix operations and quantum
-                 gate simulations. It renders graphical representations of quantum states,
+                 **quantum computing** logic and mathematics, including complex matrix operations and
+                 quantum gate simulations. It renders graphical representations of quantum states
                  for an educational user experience.
       
       - title: Minigen
@@ -168,7 +169,7 @@ projects:
 
       - title: Creative Scala
         link: https://github.com/mrdimosthenis/creative-scala
-        tagline: Translation of the book **Creative Scala** to Greek.
+        tagline: The translation of the book Creative Scala to Greek.
 
 publications:
     title: Articles
