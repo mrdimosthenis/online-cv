@@ -51,15 +51,9 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am a software engineer with a passion for **functional programming** and a strong focus on
-      **backend development** and **data engineering**. My expertise includes creating **web APIs** and **data pipelines**
-      using languages such as **Clojure**, **Scala**, **Python**, **F#**, and **Elixir**. I have integrated software
-      with various data sources, designed **ETL processes**, and developed **advanced SQL** queries for large-scale data
-      analysis.
-
-      I have substantial experience managing infrastructure on **AWS** and **GCP** using **Terraform**, and I have set
-      up automated **testing** and **CI/CD** pipelines. My work also extends to building **mobile apps** and **libraries**,
-      which are available on my GitHub profile.
+      I am a software developer with over 8 years of professional experience, spanning web development,
+      data engineering, cloud computing, DevOps, and mobile app development. My skills include a variety of
+      programming languages and technologies that you can find in the following sections.
 
 education:
     title: Education
