@@ -143,14 +143,14 @@ projects:
       - title: Blindfold Chess Training
         link: https://github.com/mrdimosthenis/BlindfoldChessTraining
         tagline: A cross-platform mobile application. The chess mechanics and the game logic
-                 were written in **F#**, and the UI components were created with Fabulous.Maui.
+                 were written in **F#**, and the UI components were created with **Maui**.
                  It integrates **SQLite** for data persistence and utilizes platform-specific
                  features for **Android**, and **iOS**. The application follows the Model-View-Update
                  architecture to manage the state and UI updates.
       
       - title: Quantum Puzzle Generator
         link: https://github.com/mrdimosthenis/QuantumPuzzleGenerator
-        tagline: A **mobile app** created with **F#** and Xamarin.Forms. The project implements
+        tagline: A **mobile app** created with **F#** and **Xamarin**. The project implements
                  **quantum computing** logic and mathematics, including complex matrix operations and
                  quantum gate simulations. It renders graphical representations of quantum states
                  for an educational user experience.
