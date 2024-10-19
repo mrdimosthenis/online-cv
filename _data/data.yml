@@ -122,39 +122,53 @@ projects:
     assignments:
       - title: Emel
         link: https://github.com/mrdimosthenis/emel
-        tagline: "A machine-learning library, written from scratch for the Erlang ecosystem"
-
+        tagline: A **machine learning** library for the **Erlang** ecosystem,
+                 initially written in **Elixir** and later reimplemented in **Gleam**.
+                 It provides a functional interface for several algorithms
+                 (e.g., KNN, Linear Regression, Neural Networks) for developers working
+                 within the BEAM environment.
+        
       - title: Synapses
         link: https://github.com/mrdimosthenis/Synapses
-        tagline: "Neural network libraries for functional and mainstream languages"
+        tagline: A collection of **neural-network** libraries available in various programming
+                 languages like **Scala**, **F#**, and **Python**. It provides customization
+                 options, visualizations, data preprocessing, and seamless compatibility for
+                 transferring networks between different platforms.
         
       - title: Blindfold Chess Training
         link: https://github.com/mrdimosthenis/BlindfoldChessTraining
-        tagline: "A chess application for Android and iOS, written in F#"
-
+        tagline: A cross-platform mobile application. The chess mechanics and the game logic
+                 were written in **F#**, and the UI components were created with Fabulous.Maui.
+                 It integrates **SQLite** for data persistence and utilizes platform-specific
+                 features for **Android**, and **iOS**. The application follows the Model-View-Update
+                 architecture to manage the state and UI updates.
+      
       - title: Quantum Puzzle Generator
         link: https://github.com/mrdimosthenis/QuantumPuzzleGenerator
-        tagline: "A puzzle game for Android and iOS, written in F#"
-
+        tagline: A **mobile app** created with **F#** and Xamarin.Forms. The project implements
+                 **quantum computing** logic and mathematics, including matrix operations and quantum
+                 gate simulations. It renders graphical representations of quantum states,
+                 for an educational user experience.
+      
       - title: Minigen
         link: https://github.com/mrdimosthenis/minigen
-        tagline: "Pure random data generation library, written in Gleam"
+        tagline: A pure random data generation library for the **Erlang** ecosystem.
 
       - title: Turtle Graphics
         link: https://github.com/mrdimosthenis/turtle-graphics
-        tagline: "An Elm library that draws vector graphics"
+        tagline: An **Elm** library that facilitates the creation of graphics programmatically.
 
       - title: Glicko 2
         link: https://github.com/mrdimosthenis/glicko2
-        tagline: "An implementation of the Glicko-2 rating system for Scala and Scala.js"
+        tagline: An implementation of the Glicko-2 rating system for **Scala** and **Scala.js**.
 
       - title: Sudoku Engine
         link: https://github.com/mrdimosthenis/sudoku-engine
-        tagline: "A sudoku engine, written in Haskell"
+        tagline: A sudoku engine, written in **Haskell**.
 
       - title: Creative Scala
         link: https://github.com/mrdimosthenis/creative-scala
-        tagline: "Translation of the book 'Creative Scala' to Greek"
+        tagline: Translation of the book **Creative Scala** to Greek.
 
 publications:
     title: Articles
