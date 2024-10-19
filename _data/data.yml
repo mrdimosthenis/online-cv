@@ -165,6 +165,10 @@ projects:
         link: https://github.com/mrdimosthenis/sudoku-engine
         tagline: A sudoku engine, written in Haskell.
 
+      - title: Chess Melody
+        link: https://github.com/mrdimosthenis/chess-melody
+        tagline: A React and TypeScript-based interactive app.
+
       - title: Creative Scala
         link: https://github.com/mrdimosthenis/creative-scala
         tagline: The translation of the book Creative Scala to Greek.
