@@ -209,6 +209,9 @@ skills:
 
       - name: DevOps
         level: 74%
+        
+      - name: Frontend Development
+        level: 70%
 
       - name: Functional Programming
         level: 97%
