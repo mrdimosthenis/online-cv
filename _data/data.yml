@@ -78,24 +78,27 @@ experiences:
         time: 2024
         company:  Hack and Craft
         details: |
-          Developed simulation algorithms and visualizations using **F#**. Analyzed large and complex datasets leveraging
-          **Spark SQL** on **Databricks**.
+          Developed simulation algorithms and visualizations using **F#**. Analyzed large and complex datasets
+          leveraging **Spark SQL** on **Databricks**.
       - role: Software Developer
         time: 2021 - 2024
         company:  Flexiana
         details: |
-          Engineered backend solutions for a fintech client with a **microservices architecture** deployed on **AWS**, utilizing
-          **Kubernetes**. Built and maintained services in **Clojure**, facilitating communication through a **pub/sub messaging** system.
-          Administered **Postgres** as the primary database and implemented caching strategies using **Redis**. Orchestrated infrastructure
-          management with **Terraform** and streamlined deployment processes through CI/CD pipelines.
+          Engineered backend solutions for a fintech client with a **microservices architecture** deployed on **AWS**,
+          utilizing **Kubernetes**. Built and maintained web services in **Clojure**, facilitating communication
+          through **pub/sub messaging** systems. Administered **Postgres** as the primary database and implemented
+          caching strategies using **Redis**. Orchestrated infrastructure management with **Terraform** and streamlined
+          deployment processes through CI/CD pipelines.
       - role: Software Developer
         time: 2016 - 2021
         company: Baresquare
         details: |
-          Developed algorithms for automatic **data analysis** using **Clojure** and **Postgres**. Integrated the software with various 
-          data sources, including **Adobe Analytics**, **Google Analytics**, and **BigQuery**. Designed and implemented **ETL** processes, 
-          orchestrated with **Airflow**, and crafted advanced SQL queries for analyzing large datasets. Managed infrastructure on **AWS** 
-          and **GCP** using **Terraform** and established automated testing and deployment pipelines.
+          Developed algorithms for automatic data analysis using **Clojure**, **Python**, and **Postgres**.
+          Integrated the software with various data sources, including **Adobe Analytics**, **Google Analytics**,
+          and **BigQuery**. Designed and implemented **ETL** processes, orchestrated with **Airflow**, and crafted
+          advanced **SQL** queries for analyzing large datasets. Built RESTful APIs with **Flask** and managed
+          infrastructure on **AWS** and **GCP** using **Terraform**. Established automated testing and deployment
+          pipelines.
       - role: Chess Coach
         time: 2013 - 2016
         company: Gymnastic Club of Pontokomi
