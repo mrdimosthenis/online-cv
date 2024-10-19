@@ -74,13 +74,13 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Data Scientist
+      - role: Software Developer
         time: 2024
         company:  Hack and Craft
         details: |
           Developed simulation algorithms and visualizations using **F#**. Analyzed large and complex datasets leveraging
           **Spark SQL** on **Databricks**.
-      - role: Backend Developer
+      - role: Software Developer
         time: 2021 - 2024
         company:  Flexiana
         details: |
@@ -88,7 +88,7 @@ experiences:
           **Kubernetes**. Built and maintained services in **Clojure**, facilitating communication through a **pub/sub messaging** system.
           Administered **Postgres** as the primary database and implemented caching strategies using **Redis**. Orchestrated infrastructure
           management with **Terraform** and streamlined deployment processes through CI/CD pipelines.
-      - role: Data Engineer
+      - role: Software Developer
         time: 2016 - 2021
         company: Baresquare
         details: |
