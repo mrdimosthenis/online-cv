@@ -124,7 +124,7 @@ projects:
       tagline: Machine learning library for the Erlang ecosystem,
         initially written in Elixir and later reimplemented in Gleam.
         It provides a functional interface of several algorithms
-        (e.g. KNN, Linear Regression, Neural Networks) for developers working
+        (e.g. Decision Trees, KNN, Naive Bayes) for developers working
         within the BEAM environment.
 
     - title: Synapses
@@ -145,10 +145,10 @@ projects:
 
     - title: Quantum Puzzle Generator
       link: https://github.com/mrdimosthenis/QuantumPuzzleGenerator
-      tagline: Mobile app created with F# and Xamarin. The project implements
-        quantum computing logic and mathematics, including complex matrix operations and
-        quantum gate simulations. It renders graphical representations of quantum states
-        reactivity for an educational user experience.
+      tagline: Mobile app developed using F# and Xamarin. The project implements quantum
+        computing logic and mathematics, including complex matrix operations and quantum
+        gate simulations. It also renders graphical representations of quantum state
+        reactivity.
 
     - title: Minigen
       link: https://github.com/mrdimosthenis/minigen
