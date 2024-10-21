@@ -146,7 +146,7 @@ projects:
       tagline: Mobile app developed using F# and Xamarin. The project implements quantum
         computing logic and mathematics, including complex matrix operations and quantum
         gate simulations. It also renders graphical representations of quantum state
-        reactivity.
+        reactively.
 
     - title: Minigen
       link: https://github.com/mrdimosthenis/minigen
