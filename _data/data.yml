@@ -121,17 +121,15 @@ projects:
   assignments:
     - title: Emel
       link: https://github.com/mrdimosthenis/emel
-      tagline: Machine learning library for the Erlang ecosystem,
-        initially written in Elixir and later reimplemented in Gleam.
-        It provides a functional interface of several algorithms
-        (e.g. Decision Trees, KNN, Naive Bayes) for developers working
-        within the BEAM environment.
+      tagline: Machine learning library for the Erlang ecosystem, initially written in Elixir
+        and later reimplemented in Gleam. It provides a functional interface for Decision Trees,
+        K Means, K Nearest Neighbors, Linear Regression, Logistic Regression, Naive Bayes,
+        Neural Networks, and Perceptron.
 
     - title: Synapses
       link: https://github.com/mrdimosthenis/Synapses
-      tagline: Collection of neural-network libraries available in various programming
-        languages like Clojure, C#, Elixir, F#, Gleam, Java,
-        JavaScript, Python, and Scala. It provides customization
+      tagline: Collection of neural network libraries available in Clojure, C#, Elixir,
+        F#, Gleam, Java, JavaScript, Python, and Scala. It provides customization
         options, visualizations, data preprocessing, and compatibility for transferring
         networks between different platforms.
 
