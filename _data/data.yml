@@ -17,7 +17,7 @@ sidebar:
   phone: +30 6948260942
   timezone: Thessaloniki, Greece
   citizenship:
-  website: mrdimosthenis.github.io/online-cv/ #do not add http://
+  website:
   linkedin: mrdimosthenis
   # xing: alandoe
   github: mrdimosthenis
@@ -51,10 +51,15 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    I am a software developer with over 8 years of professional experience, spanning web development,
-    data engineering, cloud computing, DevOps, machine learning, and mobile development. My skills include
-    a variety of programming languages and technologies that you can find in the experiences and projects
-    sections below.
+    I am a software engineer with a passion for functional programming and a strong focus on **data engineering** and
+    **backend development**. My expertise includes creating **data pipelines** and **web APIs** using languages such as
+    Clojure, Scala, Python, F#, and Elixir. I have integrated software with various data sources, designed **ETL**
+    processes, and developed advanced **SQL** queries for large-scale data analysis.
+    Throughout my career, I have utilized tools such as Google BigQuery, Databricks, Snowflake, Redis, Amazon DynamoDB,
+    Cassandra, Kibana, PostgreSQL, Elasticsearch, and various others.
+    I have substantial experience managing infrastructure on AWS and GCP using Terraform, and I have set up automated
+    testing and CI/CD pipelines. My work also extends to building mobile apps and libraries, which are available on my
+    GitHub profile.
 
 education:
   title: Education
