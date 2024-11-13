@@ -136,7 +136,7 @@ projects:
     - title: Blindfold Chess Training
       link: https://github.com/mrdimosthenis/BlindfoldChessTraining
       tagline: Cross-platform mobile application. The chess mechanics and the game logic
-        were written in F#, and the UI components were created with Maui.
+        were written in F#, and the UI components were created with MAUI.
         It integrates SQLite for data persistence and utilizes platform-specific
         features for Android, and iOS. The application follows the MVU architecture
         to manage the state and UI updates.
