@@ -75,7 +75,7 @@ experiences:
       details: |
         Developed simulation algorithms and visualizations using **F#**. Analyzed large and complex datasets
         leveraging **Spark SQL** on **Databricks**.
-    - role: Software Engineer | Backend Developer
+    - role: Software | Backend Developer
       time: 2021 - 2024
       company: Flexiana
       details: |
@@ -84,7 +84,7 @@ experiences:
         through **pub/sub messaging** systems. Administered **Postgres** as the primary database and implemented
         caching strategies using **Redis**. Orchestrated infrastructure management with **Terraform** and streamlined
         deployment processes through CI/CD pipelines.
-    - role: Software Engineer | Data Engineer
+    - role: Software | Data Engineer
       time: 2016 - 2021
       company: Baresquare
       details: |
