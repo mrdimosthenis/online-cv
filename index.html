@@ -42,6 +42,17 @@
             border-right: 1px solid var(--border-color);
         }
 
+        .profile-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 2rem auto;
+            display: block;
+            border: 4px solid #fff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
         .sidebar section {
             margin-bottom: 1.5rem;
         }
@@ -239,6 +250,8 @@
 
 <div class="cv-container">
     <aside class="sidebar">
+        <img src="photo.jpeg" alt="Dimos Michailidis" class="profile-photo">
+        
         <section class="contact-info">
             <h3>Contact</h3>
             <p>📧 <a href="mailto:dimos86m@gmail.com">dimos86m@gmail.com</a></p>
