@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimos Michailidis - Senior Software Engineer</title>
+    <meta name="description" content="Senior software engineer with a decade of experience in backend systems, data pipelines, and full-stack development with Scala, Clojure, and TypeScript.">
+    <link rel="canonical" href="https://mrdimosthenis.github.io/online-cv/">
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Dimos Michailidis - Senior Software Engineer">
+    <meta property="og:description" content="Senior software engineer with a decade of experience in backend systems, data pipelines, and full-stack development with Scala, Clojure, and TypeScript.">
+    <meta property="og:url" content="https://mrdimosthenis.github.io/online-cv/">
+    <meta property="og:site_name" content="Dimos Michailidis">
+    <meta property="og:image" content="https://mrdimosthenis.github.io/online-cv/photo.jpeg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Dimos Michailidis - Senior Software Engineer">
+    <meta name="twitter:description" content="Senior software engineer with a decade of experience in backend systems, data pipelines, and full-stack development with Scala, Clojure, and TypeScript.">
+    <meta name="twitter:image" content="https://mrdimosthenis.github.io/online-cv/photo.jpeg">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --text-color: #333;
+            --sidebar-bg: #f8f9fa;
+            --border-color: #ddd;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.4;
+            color: var(--text-color);
+            background-color: #e9ecef;
+            padding: 2rem 0;
+        }
+
+        .cv-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #fff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            display: grid;
+            grid-template-columns: 320px 1fr;
+        }
+
+        .sidebar {
+            background-color: var(--sidebar-bg);
+            padding: 2rem;
+            border-right: 1px solid var(--border-color);
+        }
+
+        .profile-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 2rem auto;
+            display: block;
+            border: 4px solid #fff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .sidebar section {
+            margin-bottom: 1.5rem;
+        }
+
+        .sidebar h3 {
+            color: var(--primary-color);
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            border-bottom: 2px solid var(--accent-color);
+            margin-bottom: 0.8rem;
+            padding-bottom: 0.2rem;
+        }
+
+        .sidebar h4 {
+            font-size: 0.75rem;
+            color: #666;
+            text-transform: uppercase;
+            margin-bottom: 0.4rem;
+            margin-top: 1rem;
+        }
+
+        .contact-info p {
+            font-size: 0.85rem;
+            margin-bottom: 0.4rem;
+            word-break: break-all;
+        }
+
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            list-style: none;
+        }
+
+        .skill-list li {
+            font-size: 0.8rem;
+            background: #eee;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+        }
+
+        .main-content {
+            padding: 2rem 2.5rem;
+        }
+
+        header {
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 0.8rem;
+        }
+
+        header h1 {
+            color: var(--primary-color);
+            font-size: 2.2rem;
+            line-height: 1.1;
+        }
+
+        header .subtitle {
+            color: var(--accent-color);
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-top: 0.3rem;
+        }
+
+        section {
+            margin-bottom: 1.5rem;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        h2::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background: var(--border-color);
+            margin-left: 1rem;
+        }
+
+        .item {
+            margin-bottom: 1.8rem;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 0.2rem;
+        }
+
+        .item-header h4 {
+            font-size: 1.15rem;
+            color: var(--primary-color);
+        }
+
+        .item-header .meta {
+            font-size: 0.8rem;
+            color: #666;
+            font-style: italic;
+        }
+
+        .item-subheader {
+            font-weight: bold;
+            color: var(--accent-color);
+            font-size: 0.95rem;
+            margin-bottom: 0.4rem;
+        }
+
+        .progression {
+            text-align: right;
+            margin-top: -0.5rem;
+            margin-bottom: 1rem;
+            border-right: 2px solid #eee;
+            padding-right: 1rem;
+        }
+
+        .progression-item {
+            font-size: 0.8rem;
+            margin-bottom: 0.1rem;
+            font-style: italic;
+            color: #666;
+        }
+
+        ul {
+            font-size: 0.85rem;
+            margin-left: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .project-desc {
+            font-size: 0.85rem;
+            margin-top: 0.3rem;
+        }
+
+        .edu-item p, .lang-item p {
+            font-size: 0.85rem;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        .external-link-icon {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            margin-left: 5px;
+            fill: currentColor;
+            vertical-align: middle;
+            opacity: 0.7;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:hover .external-link-icon {
+            opacity: 1;
+        }
+
+        @media (max-width: 768px) {
+            body { padding: 0; }
+            .cv-container { grid-template-columns: 1fr; }
+            .sidebar { border-right: none; border-bottom: 1px solid var(--border-color); }
+        }
+
+        @media print {
+            body { background: none; padding: 0; color: #000; }
+            .cv-container { box-shadow: none; max-width: 100%; width: 100%; grid-template-columns: 280px 1fr; }
+            @page { margin: 0.8cm; size: A4; }
+            .item, section { page-break-inside: avoid; }
+            .progression { border-right: 2px solid var(--accent-color); }
+            a { color: #0056b3; text-decoration: underline; }
+            .sidebar { background-color: #fff; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="cv-container">
+    <aside class="sidebar">
+        <img src="photo.jpeg" alt="Dimos Michailidis" class="profile-photo">
+        
+        <section class="contact-info">
+            <h3>Contact</h3>
+            <p>📧 <a href="mailto:dimos86m@gmail.com">dimos86m@gmail.com</a></p>
+            <p>📞 +30 6948260942</p>
+            <p>📍 Thessaloniki, Greece</p>
+            <p>🔗 <a href="https://linkedin.com/in/mrdimosthenis" target="_blank" rel="noopener">linkedin.com/in/mrdimosthenis</a></p>
+            <p>💻 <a href="https://github.com/mrdimosthenis" target="_blank" rel="noopener">github.com/mrdimosthenis</a></p>
+            <p>🌐 <a href="https://mrdimosthenis.github.io/online-cv/" target="_blank" rel="noopener">mrdimosthenis.github.io/online-cv</a></p>
+        </section>
+
+        <section>
+            <h3>Skills</h3>
+
+            <h4>Programming Languages</h4>
+            <ul class="skill-list">
+                <li>Scala</li>
+                <li>Clojure</li>
+                <li>TypeScript</li>
+                <li>F#</li>
+                <li>Elixir</li>
+                <li>Elm</li>
+                <li>Gleam</li>
+                <li>Haskell</li>
+            </ul>
+
+            <h4>Data Systems</h4>
+            <ul class="skill-list">
+                <li>SQL</li>
+                <li>PostgreSQL</li>
+                <li>Redis</li>
+                <li>Spark</li>
+                <li>Snowflake</li>
+                <li>BigQuery</li>
+                <li>Kafka</li>
+            </ul>
+
+            <h4>Cloud &amp; Infrastructure</h4>
+            <ul class="skill-list">
+                <li>AWS</li>
+                <li>GCP</li>
+                <li>Terraform</li>
+                <li>Kubernetes</li>
+            </ul>
+
+            <h4>Systems &amp; Architecture</h4>
+            <ul class="skill-list">
+                <li>Distributed Systems</li>
+                <li>Event-Driven Architecture</li>
+                <li>Microservices</li>
+            </ul>
+
+            <h4>Machine Learning &amp; Algorithms</h4>
+            <ul class="skill-list">
+                <li>Machine Learning</li>
+                <li>Simulation Modeling</li>
+                <li>Algorithm Design</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Education</h3>
+            <div class="edu-item">
+                <p><strong>Bachelor of Science in Mathematics</strong></p>
+                <p>University of Ioannina, 2013</p>
+            </div>
+        </section>
+
+        <section>
+            <h3>Recent Training &amp; Courses</h3>
+            <div class="edu-item">
+                <p>Intermediate Developer SDLC; Secure Development and Acquisition; AI Risks and Best Practices; GDPR: A Practical Overview</p>
+                <p><i>Omnicom, 2025</i></p>
+            </div>
+        </section>
+
+        <section>
+            <h3>Spoken Languages</h3>
+            <div class="lang-item">
+                <p><strong>English</strong></p>
+                <p>Fluent</p>
+            </div>
+            <div class="lang-item" style="margin-top: 0.5rem;">
+                <p><strong>Greek</strong></p>
+                <p>Native</p>
+            </div>
+        </section>
+    </aside>
+
+    <main class="main-content">
+        <header>
+            <h1>Dimos Michailidis</h1>
+            <p class="subtitle">Senior Software Engineer</p>
+        </header>
+
+        <section>
+            <p style="font-size: 0.95rem; line-height: 1.5; margin-bottom: 1.5rem;">
+                Software engineer with a background in Mathematics and over a decade of experience across backend architecture, data systems, and full-stack development. My technical depth is in functional programming, but my focus is on shipping reliable software. I care about catching edge cases early, choosing the simpler solution, and leaving my work clearly documented.
+            </p>
+        </section>
+
+        <section>
+            <h2>Work Experience</h2>
+            
+            <div class="item" style="margin-bottom: 1.4rem;">
+                <div class="item-header">
+                    <h4>Senior Full Stack Engineer</h4>
+                    <span class="meta">Apr 2025 - Sep 2026, Dublin, Ireland</span>
+                </div>
+                <div class="item-subheader">Flywheel</div>
+                <ul>
+                    <li>Engineered backend services in Scala</li>
+                    <li>Developed frontend features with TypeScript</li>
+                    <li>Optimized data persistence and schema design using PostgreSQL</li>
+                    <li>Maintained distributed data processing pipelines using Spark, Snowflake, and Parquet on S3</li>
+                    <li>Orchestrated event-driven workflows and messaging services using Kafka, SNS, and SQS</li>
+                </ul>
+            </div>
+
+            <div class="item" style="margin-bottom: 1.4rem;">
+                <div class="item-header">
+                    <h4>Senior Software Engineer (Consultant)</h4>
+                    <span class="meta">Jan 2024 - Jun 2024, Remote</span>
+                </div>
+                <div class="item-subheader">Hack and Craft</div>
+                <ul>
+                    <li>Built F# tooling alongside the data science team</li>
+                    <li>Designed and implemented simulation algorithms</li>
+                    <li>Built visualizations to communicate data insights</li>
+                    <li>Performed analysis using Spark SQL on Databricks</li>
+                </ul>
+            </div>
+
+            <div class="item" style="margin-bottom: 1.4rem;">
+                <div class="item-header">
+                    <h4>Senior Software Engineer (Consultant)</h4>
+                    <span class="meta">Apr 2021 - Jan 2024, Remote</span>
+                </div>
+                <div class="item-subheader">Flexiana</div>
+                <ul>
+                    <li>Built Clojure backend services for a fintech client in digital payments</li>
+                    <li>Developed backend microservices</li>
+                    <li>Managed PostgreSQL, Redis, and pub/sub systems</li>
+                    <li>Maintained services on AWS using Kubernetes and Terraform</li>
+                </ul>
+            </div>
+
+            <div class="item" style="margin-bottom: 1.4rem;">
+                <div class="item-header">
+                    <h4>Software Engineer Specialist</h4>
+                    <span class="meta">Jul 2016 - Jan 2021, Thessaloniki, Greece</span>
+                </div>
+                <div class="item-subheader">Baresquare</div>
+                <div class="progression" style="margin-bottom: 0.5rem;">
+                    <div class="progression-item">Software Engineer Specialist (2018 – 2021)</div>
+                    <div class="progression-item">Senior Software Engineer (2017 – 2018)</div>
+                    <div class="progression-item">Junior Software Developer (2016 – 2017)</div>
+                </div>
+                <ul>
+                    <li>Implemented Clojure algorithms for automatic data analysis</li>
+                    <li>Optimized data handling with PostgreSQL</li>
+                    <li>Integrated APIs such as Google and Adobe Analytics</li>
+                    <li>Set up BigQuery as a data solution for the company</li>
+                    <li>Maintained AWS and GCP with Terraform</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <h4>Chess Coach</h4>
+                    <span class="meta">Oct 2013 - May 2016, Kozani, Greece</span>
+                </div>
+                <div class="item-subheader">Gymnastic Club of Pontokomi & Athletic Union of Kozani</div>
+                <ul>
+                    <li>FIDE-certified National Chess Instructor</li>
+                    <li>Coached both hometown chess clubs</li>
+                    <li>Led the team as captain in local championships</li>
+                    <li>Organized and directed in-house tournaments</li>
+                </ul>
+            </div>
+            <p style="font-size: 0.75rem; color: #888; font-style: italic; margin-top: 1rem;">* References available upon request.</p>
+        </section>
+
+        <section>
+            <h2>Personal Projects</h2>
+            
+            <div class="item" style="margin-bottom: 1rem;">
+                <a href="https://chesskinetics.com" target="_blank" rel="noopener"><strong>ChessKinetics.com</strong><svg class="external-link-icon" viewBox="0 0 24 24"><path d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"/></svg></a>
+                <p class="project-desc">Adaptive chess puzzle training platform featuring a wave-based progression system and active recovery mechanics to optimize cognitive load. It is built with a pure functional Typelevel Scala backend (http4s, cats-effect, Skunk) and a Tyrian (MVU) Scala.js frontend. The platform includes in-browser engine analysis via Stockfish WebAssembly, and integrates Clerk and Paddle for full SaaS capabilities.</p>
+            </div>
+
+            <div class="item" style="margin-bottom: 1rem;">
+                <a href="https://github.com/mrdimosthenis/emel" target="_blank" rel="noopener"><strong>Emel</strong><svg class="external-link-icon" viewBox="0 0 24 24"><path d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"/></svg></a>
+                <p class="project-desc">Machine learning library for the Erlang ecosystem, initially written in Elixir and later reimplemented in Gleam. It provides a functional interface for Decision Trees, K Means, K Nearest Neighbors, Linear Regression, Logistic Regression, Naive Bayes, Neural Networks, and Perceptron.</p>
+            </div>
+
+            <div class="item" style="margin-bottom: 1rem;">
+                <a href="https://github.com/mrdimosthenis/synapses" target="_blank" rel="noopener"><strong>Synapses</strong><svg class="external-link-icon" viewBox="0 0 24 24"><path d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"/></svg></a>
+                <p class="project-desc">Collection of neural network libraries available in Clojure, C#, Elixir, F#, Gleam, Java, JavaScript, Python, and Scala. It provides customization options, visualizations, data preprocessing, and compatibility for transferring networks between different platforms.</p>
+            </div>
+
+            <div class="item" style="margin-bottom: 1rem;">
+                <a href="https://github.com/mrdimosthenis/BlindfoldChessTraining" target="_blank" rel="noopener"><strong>Blindfold Chess Training</strong><svg class="external-link-icon" viewBox="0 0 24 24"><path d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"/></svg></a>
+                <p class="project-desc">Cross-platform mobile application. The chess mechanics and the game logic were written in F#, and the UI components were created with MAUI. It integrates SQLite for data persistence and uses platform-specific features for Android, and iOS. The application follows the MVU architecture to manage the state and UI updates.</p>
+            </div>
+
+            <div class="item" style="margin-bottom: 1rem;">
+                <a href="https://github.com/mrdimosthenis/QuantumPuzzleGenerator" target="_blank" rel="noopener"><strong>Quantum Puzzle Generator</strong><svg class="external-link-icon" viewBox="0 0 24 24"><path d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"/></svg></a>
+                <p class="project-desc">Mobile app developed using F# and Xamarin. The project implements quantum computing logic, including complex matrix operations and quantum gate simulations. It also renders graphical representations of quantum state reactively.</p>
+            </div>
+
+            <div class="item" style="margin-bottom: 1rem;">
+                <a href="https://github.com/mrdimosthenis" target="_blank" rel="noopener"><strong>Other GH Projects</strong><svg class="external-link-icon" viewBox="0 0 24 24"><path d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"/></svg></a>
+                <p class="project-desc">My GitHub profile includes several other projects implemented in Clojure, F#, Scala, Elixir, Elm, Haskell, TypeScript, and Python.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Articles</h2>
+            
+            <div class="item" style="margin-bottom: 1rem;">
+                <a href="https://medium.com/@flexianadevgroup/error-handling-in-f-159272da9b86" target="_blank" rel="noopener"><strong>Error Handling in F#</strong><svg class="external-link-icon" viewBox="0 0 24 24"><path d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"/></svg></a>
+                <p class="project-desc">A practical guide to error handling in F# through the development of a console application. It explores functional approaches to managing successes and failures, along with short-circuit evaluation and computation expressions to build robust software.</p>
+            </div>
+
+            <div class="item" style="margin-bottom: 1rem;">
+                <a href="https://medium.com/@flexianadevgroup/deterministic-randomness-in-elixir-8ad58a653242" target="_blank" rel="noopener"><strong>Deterministic Randomness in Elixir</strong><svg class="external-link-icon" viewBox="0 0 24 24"><path d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"/></svg></a>
+                <p class="project-desc">A deep dive into deterministic randomness in Elixir using purely functional generators. It demonstrates how to achieve reproducible results in complex simulations such as Monte Carlo Pi estimation and the Monty Hall problem by leveraging the generator pattern for consistent testing and modeling.</p>
+            </div>
+
+            <div class="item" style="margin-bottom: 1rem;">
+                <a href="https://www.linkedin.com/pulse/100-prisoners-escape-riddle-dimos-michailidis-j2yuf/" target="_blank" rel="noopener"><strong>The 100 Prisoners Escape Riddle</strong><svg class="external-link-icon" viewBox="0 0 24 24"><path d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"/></svg></a>
+                <p class="project-desc">An exploration of the riddle using Scala and functional programming. It explains the cycle-following strategy that increases the success probability from near-zero to over 31% and demonstrates how to model the problem as a cycle detection challenge in random permutations.</p>
+            </div>
+
+            <div class="item">
+                <a href="https://dev.to/mrdimosthenis" target="_blank" rel="noopener"><strong>Additional Articles</strong><svg class="external-link-icon" viewBox="0 0 24 24"><path d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"/></svg></a>
+                <p class="project-desc">A collection of articles exploring diverse technical and hobbyist topics.</p>
+            </div>
+        </section>
+    </main>
+</div>
+
+</body>
+</html>
