@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dimos Michailidis - Senior Software Engineer</title>
+    <meta name="author" content="Dimos Michailidis">
     <meta name="description" content="Senior software engineer with a decade of experience in backend systems, data pipelines, and full-stack development with Scala, Clojure, and TypeScript.">
     <link rel="canonical" href="https://mrdimosthenis.github.io/online-cv/">
     <meta property="og:type" content="profile">
@@ -240,13 +241,32 @@
         }
 
         @media print {
+            html { font-size: 14px; font-family: Arial, Helvetica, sans-serif; }
             body { background: none; padding: 0; color: #000; }
-            .cv-container { box-shadow: none; max-width: 100%; width: 100%; grid-template-columns: 280px 1fr; }
-            @page { margin: 0.8cm; size: A4; }
-            .item, section { page-break-inside: avoid; }
+            .cv-container {
+                box-shadow: none;
+                max-width: 100%;
+                width: 100%;
+                grid-template-columns: 210px 1fr;
+            }
+            .profile-photo { width: 120px; height: 120px; margin-bottom: 1rem; }
+            .sidebar { padding: 1.2rem; background-color: #fff; border: none; }
+            .contact-info p { word-break: normal; padding-left: 1.45em; text-indent: -1.45em; }
+            .contact-info a { font-size: 0.72rem; }
+            .main-content { padding: 1.3rem 1.5rem; }
+            @page { margin: 0.6cm; size: A4; }
+            section { margin-bottom: 0.9rem; }
+            .item { break-inside: avoid; margin-bottom: 0.85rem; }
+            .item-subheader { margin-bottom: 0.2rem; }
+            h2, h3 { break-inside: avoid; break-after: avoid; }
+            ul { margin-bottom: 0.3rem; }
+            ul, .project-desc { line-height: 1.35; }
+            h2 { margin-bottom: 0.6rem; }
             .progression { border-right: 2px solid var(--accent-color); }
             a { color: #0056b3; text-decoration: underline; }
-            .sidebar { background-color: #fff; }
+            .external-link-icon { display: none; }
+            .item-header .meta, .progression-item, i, em { font-style: normal; }
+            p[style*="font-style: italic"] { font-style: normal !important; }
         }
     </style>
 </head>
@@ -261,9 +281,9 @@
             <p>📧 <a href="mailto:dimos86m@gmail.com">dimos86m@gmail.com</a></p>
             <p>📞 +30 6948260942</p>
             <p>📍 Thessaloniki, Greece</p>
-            <p>🔗 <a href="https://linkedin.com/in/mrdimosthenis" target="_blank" rel="noopener">linkedin.com/in/mrdimosthenis</a></p>
-            <p>💻 <a href="https://github.com/mrdimosthenis" target="_blank" rel="noopener">github.com/mrdimosthenis</a></p>
-            <p>🌐 <a href="https://mrdimosthenis.github.io/online-cv/" target="_blank" rel="noopener">mrdimosthenis.github.io/online-cv</a></p>
+            <p>🔗 <a href="https://linkedin.com/in/mrdimosthenis" target="_blank" rel="noopener">linkedin.com/in/<wbr>mrdimosthenis</a></p>
+            <p>💻 <a href="https://github.com/mrdimosthenis" target="_blank" rel="noopener">github.com/<wbr>mrdimosthenis</a></p>
+            <p>🌐 <a href="https://mrdimosthenis.github.io/online-cv/" target="_blank" rel="noopener">mrdimosthenis.github.io/<wbr>online-cv</a></p>
         </section>
 
         <section>
